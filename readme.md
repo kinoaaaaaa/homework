@@ -24,3 +24,23 @@ python LeNet-5.py
 
 # __实验结果__
 
+首先不同的学习率对SGD优化方法的影响：
+![节点](./图片1.png)
+发现Lr取0.1是最合适的。取lr=0.1，进一步探讨了SGD优化方法和基于SGD的SAM优化方法的差异：
+![节点](./图片2.png)
+
+不同的学习率对Adam优化方法的影响：
+![节点](./图片3.png)
+发现Lr取0.01是最合适的。取lr=0.01，进一步探讨了Adam优化方法和基于Adam的SAM优化方法的差异：
+![节点](./图片4.png)
+
+探讨不同的rho值对基于Adam的SAM优化方法的影响：
+![节点](./图片5.png)
+
+使用ESAM方法对原本的SAM方法进行改进，并与原本的基于SGD的SAM优化方法进行对比：
+![节点](./图片6.png)
+    二者性能大致相同，但运行时间有差异：
+![节点](./图片7.png)
+
+对实验结果的详细分析见实验报告。
+所有源代码及该readme文档都已上传github，地址：[https://github.com/kinoaaaaaa/homework](https://github.com/kinoaaaaaa/homework)
