@@ -17,9 +17,13 @@ pip install torch torchvision
 
 # __运行方式__
 
-首先将 _LeNet-5.py_ ， _Esam.py_ ， _sam.py_ 三个代码放在同一个目录下；然后在该目录下运行以下命令：
+首先将 _SGD优化方法.py_ ， _Adam优化方法.py_ ， _基于Adam的SAM优化方法.py_ ， _基于SGD的SAM优化方法.py_ ， _对SAM的ESAM优化.py_ ， _Esam.py_ ， _sam.py_ 这几个个代码放在同一个目录下；然后在该目录下运行以下命令来分别运行这几个代码：
 ```bash
-python LeNet-5.py
+python SGD优化方法.py
+python Adam优化方法.py
+python 基于Adam的SAM优化方法
+python 基于SGD的SAM优化方法
+...
 ```
 
 # __实验结果__
